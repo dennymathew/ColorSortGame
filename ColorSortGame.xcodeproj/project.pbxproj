@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0515A722965DEC000593DA2 /* ColorSortGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515A712965DEC000593DA2 /* ColorSortGameApp.swift */; };
+		B0515A762965DEC100593DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0515A752965DEC100593DA2 /* Assets.xcassets */; };
+		B0515A792965DEC100593DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0515A782965DEC100593DA2 /* Preview Assets.xcassets */; };
+		B0515A832965DEC200593DA2 /* ColorSortGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515A822965DEC200593DA2 /* ColorSortGameTests.swift */; };
+		B0515A8D2965DEC200593DA2 /* ColorSortGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515A8C2965DEC200593DA2 /* ColorSortGameUITests.swift */; };
+		B0515A8F2965DEC200593DA2 /* ColorSortGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515A8E2965DEC200593DA2 /* ColorSortGameUITestsLaunchTests.swift */; };
+		B0515A9D2965DF0100593DA2 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515A9C2965DF0100593DA2 /* Toy.swift */; };
+		B0515AA42965DFD800593DA2 /* DraggableToy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515AA32965DFD800593DA2 /* DraggableToy.swift */; };
+		B0515AA62965E0C900593DA2 /* BabyToyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515AA52965E0C900593DA2 /* BabyToyView.swift */; };
+		B0515AA82965E29700593DA2 /* ToyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515AA72965E29700593DA2 /* ToyContainer.swift */; };
+		B0515AAB2965E36400593DA2 /* ToyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515AAA2965E36400593DA2 /* ToyViewModel.swift */; };
+		B0515AAD2966B50B00593DA2 /* SizeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0515AAC2966B50B00593DA2 /* SizeScale.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0515A7F2965DEC200593DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0515A662965DEC000593DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0515A6D2965DEC000593DA2;
+			remoteInfo = ColorSortGame;
+		};
+		B0515A892965DEC200593DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0515A662965DEC000593DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0515A6D2965DEC000593DA2;
+			remoteInfo = ColorSortGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0515A6E2965DEC000593DA2 /* ColorSortGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSortGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0515A712965DEC000593DA2 /* ColorSortGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSortGameApp.swift; sourceTree = "<group>"; };
+		B0515A752965DEC100593DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0515A782965DEC100593DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0515A7E2965DEC200593DA2 /* ColorSortGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSortGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0515A822965DEC200593DA2 /* ColorSortGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSortGameTests.swift; sourceTree = "<group>"; };
+		B0515A882965DEC200593DA2 /* ColorSortGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSortGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0515A8C2965DEC200593DA2 /* ColorSortGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSortGameUITests.swift; sourceTree = "<group>"; };
+		B0515A8E2965DEC200593DA2 /* ColorSortGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSortGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0515A9C2965DF0100593DA2 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		B0515AA32965DFD800593DA2 /* DraggableToy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableToy.swift; sourceTree = "<group>"; };
+		B0515AA52965E0C900593DA2 /* BabyToyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyToyView.swift; sourceTree = "<group>"; };
+		B0515AA72965E29700593DA2 /* ToyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyContainer.swift; sourceTree = "<group>"; };
+		B0515AAA2965E36400593DA2 /* ToyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyViewModel.swift; sourceTree = "<group>"; };
+		B0515AAC2966B50B00593DA2 /* SizeScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeScale.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0515A6B2965DEC000593DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0515A7B2965DEC200593DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0515A852965DEC200593DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0515A652965DEC000593DA2 = {
+			isa = PBXGroup;
+			children = (
+				B0515A702965DEC000593DA2 /* ColorSortGame */,
+				B0515A812965DEC200593DA2 /* ColorSortGameTests */,
+				B0515A8B2965DEC200593DA2 /* ColorSortGameUITests */,
+				B0515A6F2965DEC000593DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0515A6F2965DEC000593DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0515A6E2965DEC000593DA2 /* ColorSortGame.app */,
+				B0515A7E2965DEC200593DA2 /* ColorSortGameTests.xctest */,
+				B0515A882965DEC200593DA2 /* ColorSortGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0515A702965DEC000593DA2 /* ColorSortGame */ = {
+			isa = PBXGroup;
+			children = (
+				B0515AA92965E35900593DA2 /* ViewModel */,
+				B0515A9E2965DF9900593DA2 /* View */,
+				B0515A9B2965DEEE00593DA2 /* Model */,
+				B0515A712965DEC000593DA2 /* ColorSortGameApp.swift */,
+				B0515A752965DEC100593DA2 /* Assets.xcassets */,
+				B0515A772965DEC100593DA2 /* Preview Content */,
+			);
+			path = ColorSortGame;
+			sourceTree = "<group>";
+		};
+		B0515A772965DEC100593DA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0515A782965DEC100593DA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B0515A812965DEC200593DA2 /* ColorSortGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0515A822965DEC200593DA2 /* ColorSortGameTests.swift */,
+			);
+			path = ColorSortGameTests;
+			sourceTree = "<group>";
+		};
+		B0515A8B2965DEC200593DA2 /* ColorSortGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0515A8C2965DEC200593DA2 /* ColorSortGameUITests.swift */,
+				B0515A8E2965DEC200593DA2 /* ColorSortGameUITestsLaunchTests.swift */,
+			);
+			path = ColorSortGameUITests;
+			sourceTree = "<group>";
+		};
+		B0515A9B2965DEEE00593DA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0515A9C2965DF0100593DA2 /* Toy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0515A9E2965DF9900593DA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B0515AA32965DFD800593DA2 /* DraggableToy.swift */,
+				B0515AA52965E0C900593DA2 /* BabyToyView.swift */,
+				B0515AA72965E29700593DA2 /* ToyContainer.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B0515AA92965E35900593DA2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B0515AAA2965E36400593DA2 /* ToyViewModel.swift */,
+				B0515AAC2966B50B00593DA2 /* SizeScale.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0515A6D2965DEC000593DA2 /* ColorSortGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0515A922965DEC200593DA2 /* Build configuration list for PBXNativeTarget "ColorSortGame" */;
+			buildPhases = (
+				B0515A6A2965DEC000593DA2 /* Sources */,
+				B0515A6B2965DEC000593DA2 /* Frameworks */,
+				B0515A6C2965DEC000593DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorSortGame;
+			productName = ColorSortGame;
+			productReference = B0515A6E2965DEC000593DA2 /* ColorSortGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0515A7D2965DEC200593DA2 /* ColorSortGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0515A952965DEC200593DA2 /* Build configuration list for PBXNativeTarget "ColorSortGameTests" */;
+			buildPhases = (
+				B0515A7A2965DEC200593DA2 /* Sources */,
+				B0515A7B2965DEC200593DA2 /* Frameworks */,
+				B0515A7C2965DEC200593DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0515A802965DEC200593DA2 /* PBXTargetDependency */,
+			);
+			name = ColorSortGameTests;
+			productName = ColorSortGameTests;
+			productReference = B0515A7E2965DEC200593DA2 /* ColorSortGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0515A872965DEC200593DA2 /* ColorSortGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0515A982965DEC200593DA2 /* Build configuration list for PBXNativeTarget "ColorSortGameUITests" */;
+			buildPhases = (
+				B0515A842965DEC200593DA2 /* Sources */,
+				B0515A852965DEC200593DA2 /* Frameworks */,
+				B0515A862965DEC200593DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0515A8A2965DEC200593DA2 /* PBXTargetDependency */,
+			);
+			name = ColorSortGameUITests;
+			productName = ColorSortGameUITests;
+			productReference = B0515A882965DEC200593DA2 /* ColorSortGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0515A662965DEC000593DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B0515A6D2965DEC000593DA2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B0515A7D2965DEC200593DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B0515A6D2965DEC000593DA2;
+					};
+					B0515A872965DEC200593DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B0515A6D2965DEC000593DA2;
+					};
+				};
+			};
+			buildConfigurationList = B0515A692965DEC000593DA2 /* Build configuration list for PBXProject "ColorSortGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0515A652965DEC000593DA2;
+			productRefGroup = B0515A6F2965DEC000593DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0515A6D2965DEC000593DA2 /* ColorSortGame */,
+				B0515A7D2965DEC200593DA2 /* ColorSortGameTests */,
+				B0515A872965DEC200593DA2 /* ColorSortGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0515A6C2965DEC000593DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0515A792965DEC100593DA2 /* Preview Assets.xcassets in Resources */,
+				B0515A762965DEC100593DA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0515A7C2965DEC200593DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0515A862965DEC200593DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0515A6A2965DEC000593DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0515A9D2965DF0100593DA2 /* Toy.swift in Sources */,
+				B0515AA42965DFD800593DA2 /* DraggableToy.swift in Sources */,
+				B0515AA82965E29700593DA2 /* ToyContainer.swift in Sources */,
+				B0515A722965DEC000593DA2 /* ColorSortGameApp.swift in Sources */,
+				B0515AAD2966B50B00593DA2 /* SizeScale.swift in Sources */,
+				B0515AA62965E0C900593DA2 /* BabyToyView.swift in Sources */,
+				B0515AAB2965E36400593DA2 /* ToyViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0515A7A2965DEC200593DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0515A832965DEC200593DA2 /* ColorSortGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0515A842965DEC200593DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0515A8F2965DEC200593DA2 /* ColorSortGameUITestsLaunchTests.swift in Sources */,
+				B0515A8D2965DEC200593DA2 /* ColorSortGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0515A802965DEC200593DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0515A6D2965DEC000593DA2 /* ColorSortGame */;
+			targetProxy = B0515A7F2965DEC200593DA2 /* PBXContainerItemProxy */;
+		};
+		B0515A8A2965DEC200593DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0515A6D2965DEC000593DA2 /* ColorSortGame */;
+			targetProxy = B0515A892965DEC200593DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0515A902965DEC200593DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0515A912965DEC200593DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0515A932965DEC200593DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorSortGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DENJD3M83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denmathew.ColorSortGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0515A942965DEC200593DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ColorSortGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 9DENJD3M83;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denmathew.ColorSortGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0515A962965DEC200593DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DENJD3M83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denmathew.ColorSortGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSortGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorSortGame";
+			};
+			name = Debug;
+		};
+		B0515A972965DEC200593DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DENJD3M83;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denmathew.ColorSortGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorSortGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ColorSortGame";
+			};
+			name = Release;
+		};
+		B0515A992965DEC200593DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DENJD3M83;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denmathew.ColorSortGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorSortGame;
+			};
+			name = Debug;
+		};
+		B0515A9A2965DEC200593DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DENJD3M83;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denmathew.ColorSortGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColorSortGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0515A692965DEC000593DA2 /* Build configuration list for PBXProject "ColorSortGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0515A902965DEC200593DA2 /* Debug */,
+				B0515A912965DEC200593DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0515A922965DEC200593DA2 /* Build configuration list for PBXNativeTarget "ColorSortGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0515A932965DEC200593DA2 /* Debug */,
+				B0515A942965DEC200593DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0515A952965DEC200593DA2 /* Build configuration list for PBXNativeTarget "ColorSortGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0515A962965DEC200593DA2 /* Debug */,
+				B0515A972965DEC200593DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0515A982965DEC200593DA2 /* Build configuration list for PBXNativeTarget "ColorSortGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0515A992965DEC200593DA2 /* Debug */,
+				B0515A9A2965DEC200593DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0515A662965DEC000593DA2 /* Project object */;
+}
